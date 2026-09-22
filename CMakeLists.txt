@@ -8,4 +8,5 @@ add_executable(cs210_Lab_LinkedList main.cpp
         Node.h
         Data.cpp
         Data.h
-        LinkedList.h)
+        LinkedList.h
+        List.h)
