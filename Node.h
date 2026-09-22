@@ -8,17 +8,8 @@ template <typename T>
 class Node {
 
 public:
-    T *value;
-    Node<T> *next;
-
-    Node(T *value) {
-        // . is for belongs to -> is for pointing to
-        this->value = value;
-        next=nullptr;
-    }
-
-    void print() {
-        cout<<value<<endl;
-    }
-
+    T* data;
+    Node<T>* next;
+    
+    explicit Node(T* value) : data(value), next(nullptr) {}
 };

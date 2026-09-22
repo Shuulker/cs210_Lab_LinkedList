@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 4.3)
-project(untitled1)
+project(cs210_Lab_LinkedList)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(untitled1 main.cpp
+add_executable(cs210_Lab_LinkedList main.cpp
         ArrayList.h
         Node.h
         Data.cpp
