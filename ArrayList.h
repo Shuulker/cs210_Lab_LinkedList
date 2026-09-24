@@ -9,7 +9,7 @@
 template <typename T>
 class ArrayList : public List<T> {
 public:
-    ArrayList():size(0) {}
+    ArrayList():size_(0) {}
 
     void addFront(T* value) override {
         if (size_ >= CAPACITY) {

@@ -20,7 +20,7 @@ public:
 #include "LinkedList.h"
 
 template <typename T>
-std::unique_ptr<List<T>> make_list() {
+std::unique_ptr<List<T>> makeList() {
     return std::make_unique<LinkedList<T>>();
     // return std::make_unique<ArrayList<T>>();
 }
